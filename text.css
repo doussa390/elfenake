@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+header {
+  color: rgb(158, 158, 158);
+  width: 100%;
+  background-color: whitesmoke;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 200px;
+}
+.gg {
+  text-decoration: none;
+  font-weight: 450;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: #002df3;
+}
+nav a {
+  color: #087ccf;
+  text-decoration: none;
+  font-size: 1.19em;
+  font-weight: 490;
+  padding-left: 20px;
+}
+nav a:hover {
+  color: rgb(111, 1, 255);
+}
+.uh {
+  width: 100%;
+  padding-top: 170px;
+  min-height: 102vh;
+  display: inline-block;
+  align-items: center;
+  background: url(https://media.discordapp.net/attachments/1109563794235076648/1120373699418279936/image.png?width=1144&height=585)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #01261c;
+  justify-content: center;
+}
+
+.uh {
+  text-align: center;
+}
+
+.uh h2 {
+  color: white;
+  text-shadow: 0 0 20px #ff005b;
+  font-size: 1.9em;
+}
+.spn {
+  display: inline-block;
+  margin-top: -14px;
+  color: #ff005b;
+  text-shadow: 0 0 20px white;
+  font-size: 2.9em;
+  font-family: Stencil Std, fantasy;
+}
+.uh h3 {
+  color: black;
+  font-size: 1.5em;
+  text-shadow: 0 0 20px white;
+  letter-spacing: 1px;
+}
+
+.kk {
+  margin-bottom: 90px;
+  text-decoration: none;
+  color: #f0f0f0;
+  text-shadow: 0 0 20px white;
+  font-size: 30px;
+  font-weight: 500;
+  display: inline-block;
+  background: linear-gradient(to left, red, purple, blue);
+  padding: 0.45em 0.5em;
+  letter-spacing: 1px;
+  margin-top: 17px;
+  border-radius: 15px;
+  transition: 0.7s;
+}
+.kk:hover {
+  background: linear-gradient(
+    to left,
+    rgb(161, 6, 6),
+    rgb(124, 3, 124),
+    rgb(4, 4, 139)
+  );
+  transform: scale(1.15);
+}
+.lol {
+  padding: 200px 40px 160px 40px;
+  background: url(img/outrun-neon-dark-background-purple-3840x2160-4523.jpg)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  text-align: center;
+}
+.lol h2 {
+  color: white;
+  font-size: 5.19em;
+  font-weight: 600;
+  letter-spacing: 5px;
+  text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 40px #00b3ff,
+    0 0 60px #00b3ff;
+  font-family: Stencil Std, fantasy;
+}
+.lol p {
+  color: white;
+  font-size: 1.39em;
+  letter-spacing: 1px;
+  font-weight: 500;
+  padding-top: 10px;
+  text-shadow: 0 0 20px yellow;
+}
+
+.sik {
+  padding: 100px 50px 100px 250px;
+  background: url(img/wp9081278-4k-neon-cool-wallpapers.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  display: block;
+}
+
+.h2 {
+  margin-right: 250px;
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-weight: 750;
+  display: block;
+  text-align: center;
+  color: rgb(251, 245, 234);
+  text-shadow: 0 0 20px orange, 0 0 40px orange, 0 0 80px orange;
+}
+.vid {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+.caard {
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  border: 1px solid #ffffff;
+  min-height: 20.5em;
+  width: 20em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 25px;
+  transition: 0.7s ease;
+  margin-bottom: 50px;
+  transition: 0.7s ease;
+}
+.caard:hover {
+  transform: scale(1.1);
+}
+.o {
+  width: 100%;
+}
+.pp {
+  margin-top: 10px;
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  text-shadow: 0 0 20px white, 0 0 40px white;
+  margin-left: 5px;
+}
+.gogo {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.s {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 20px;
+  white-space: nowrap;
+  margin-left: 5px;
+  color: rgb(226, 255, 183);
+  text-shadow: 0 0 20px greenyellow, 0 0 40px greenyellow;
+  margin-top: 50px;
+}
+.ai {
+  padding-bottom: 20px;
+  text-decoration: none;
+  display: inline-block;
+  color: cyan;
+  text-shadow: 0 0 20px blue, 0 0 40px blue;
+  margin-right: 50px;
+  margin-top: 50px;
+}
+.car {
+  border: 1px solid #ffffff;
+  min-height: 20.5em;
+  width: 20em;
+  overflow: hidden;
+  background: black;
+  border-radius: 10px;
+  margin: 25px;
+  transition: 0.7s ease;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.car:hover {
+  transform: scale(1.1);
+}
+.mg {
+  width: 100%;
+}
+.par {
+  margin-left: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  text-shadow: 0 0 20px white, 0 0 40px white;
+}
+.sui {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 10px;
+  white-space: nowrap;
+  margin-top: 55px;
+}
+.new {
+  font-weight: 800;
+  color: rgb(226, 255, 183);
+  margin-left: 5px;
+  text-shadow: 0 0 20px greenyellow, 0 0 40px greenyellow;
+}
+.aqi {
+  text-decoration: none;
+  display: inline-block;
+  color: cyan;
+  margin-right: 5px;
+  text-shadow: 0 0 20px blue, 0 0 40px blue;
+}
+.dif {
+  flex-direction: column;
+  align-items: center;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+.ar {
+  border: 1px solid #ffffff;
+  min-height: 20.5em;
+  width: 20em;
+  overflow: hidden;
+  background: black;
+  border-radius: 10px;
+  margin: 25px;
+  transition: 0.7s ease;
+  margin-bottom: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.ar:hover {
+  transform: scale(1.1);
+}
+.ff {
+  width: 100%;
+}
+.ari {
+  margin-left: 5px;
+  color: white;
+  font-size: 1em;
+  font-weight: 600;
+  text-shadow: 0 0 20px white, 0 0 40px white;
+}
+.neew {
+  font-weight: 800;
+  color: rgb(226, 255, 183);
+  margin-left: 5px;
+  text-shadow: 0 0 20px greenyellow, 0 0 40px greenyellow;
+}
+.aqqi {
+  text-decoration: none;
+  margin-right: 5px;
+  display: inline-block;
+  color: cyan;
+  margin-right: 5px;
+  text-shadow: 0 0 20px blue, 0 0 40px blue;
+}
+.kaki {
+  padding: 130px 230px;
+  background: url(img/glowing-triangle-neon-digital-art.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.kaki h2 {
+  margin-top: -65px;
+  text-align: center;
+  font-size: 2em;
+  margin-top: -100px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  color: rgb(255, 102, 255);
+  text-shadow: 0 0 20px purple, 0 0 40px purple, 0 0 80px purple;
+}
+
+.cxrd {
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  text-align: center;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  border: 2px white;
+  border-radius: 15px;
+  padding: 0.95em 1.5em;
+  transition: 0.7s ease;
+  letter-spacing: 1px;
+  align-items: center;
+  margin-left: 33%;
+}
+.cxrd:hover {
+  transform: scale(1.1);
+  text-shadow: 0 0 20px, 0 0 40px, 0 0 70px;
+}
+.sad {
+  padding: 1em;
+  text-align: center;
+}
+footer {
+  background: url(https://tse2.mm.bing.net/th?id=OIP.5h-UMllvIeZAOwoGsbnDkAHaEo&pid=Api&P=0&h=180)
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+footer p {
+  padding-top: 5px;
+  padding-left: 5px;
+  font-size: 1em;
+  color: white;
+  text-shadow: 0 0 20px burlywood, 0 0 40px burlywood, 0 0 80px burlywood;
+}
+.sw {
+  padding-bottom: 2px;
+}
+footer p span {
+  color: chocolate;
+}
